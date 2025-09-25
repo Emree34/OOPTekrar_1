@@ -11,6 +11,9 @@ namespace OOPTekrar_1.Entities
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public AppUser AppUser { get; set; }
+
+        //Relational properties 
+
+        public virtual AppUser AppUser { get; set; }
     }
 }

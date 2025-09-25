@@ -11,7 +11,10 @@ namespace OOPTekrar_1.Entities
         public string UserName { get; set; }
         public string Password { get; set; }
 
-        public AppUserProfile AppUserProfile { get; set; }
-        public List<Order> Orders { get; set; }
+
+        //Relational properties 
+
+        public virtual AppUserProfile AppUserProfile { get; set; }
+        public virtual List<Order> Orders { get; set; }
     }
 }

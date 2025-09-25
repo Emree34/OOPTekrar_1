@@ -9,6 +9,10 @@ namespace OOPTekrar_1.Entities
     public class Shipper
     {
         public string ShipperName { get; set; }
-        public List<Order> Orders { get; set; }
+
+
+        //Relational properties 
+
+        public virtual List<Order> Orders { get; set; }
     }
 }

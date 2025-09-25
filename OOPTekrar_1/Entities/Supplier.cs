@@ -10,9 +10,7 @@ namespace OOPTekrar_1.Entities
     {
         public string  SupplierName { get; set; }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        public List<Order> Orders { get; set; }
+        //Relational properties 
+        public virtual List<Product> Products  { get; set; }
     }
 }

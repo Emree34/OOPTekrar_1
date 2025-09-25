@@ -11,12 +11,13 @@ namespace OOPTekrar_1.Entities
         public string Adres { get; set; }
         public int AppUserId { get; set; }
         public int ShipperId { get; set; }
-        public int SupplierId { get; set; }
 
 
-        public AppUser AppUser { get; set; }
-        public List<OrderDetail> OrderDetails { get; set; }
-        public Shipper Shipper { get; set; }
-        public Supplier Supplier { get; set; }
+        //Relational properties 
+
+        public virtual AppUser AppUser { get; set; }
+        public virtual List<OrderDetail> OrderDetails { get; set; }
+        public virtual Shipper Shipper { get; set; }
+       
     }
 }

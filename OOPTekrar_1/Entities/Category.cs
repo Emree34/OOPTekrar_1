@@ -11,6 +11,8 @@ namespace OOPTekrar_1.Entities
         public string CategoryName { get; set; }
 
 
-        public List<Product> Products { get; set; }
+
+        //Relational properties 
+        public virtual List<Product> Products { get; set; }
     }
 }
