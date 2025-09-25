@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace OOPTekrar_1.Entities
 {
-    public class Shipper
+    public class Supplier
     {
-        public string ShipperName { get; set; }
+        public string  SupplierName { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
         public List<Order> Orders { get; set; }
     }
 }
